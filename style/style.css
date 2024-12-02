@@ -1,0 +1,293 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.full-cover{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+}
+
+.cover{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    padding: 0 !important;
+}
+
+.cover img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 18vh;
+    
+    
+}
+
+.profile img{
+    width: 20rem;
+    border: 3px solid #e4e2e2;
+    border-radius: 40rem;
+    margin-top: -10rem;
+    margin-left: 5rem;
+}
+
+.profile img:hover{
+    width: 20rem;
+    border: 5px solid #320280;
+    border-radius: 40rem;
+    margin-top: -10rem;
+    margin-left: 5rem;
+    transition: all 0.1s;
+}
+
+
+.profile-text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    
+}
+
+.profile-text h1{
+    color: #320280;
+    font-weight: bolder;
+}
+
+.profile-text h3{
+    margin-top: -0.5rem;
+}
+
+.Contact-button{
+    margin-left: 50rem;
+    margin-top: 4rem;
+}
+.contact-me{
+    background-color: #cececf !important;
+    color: #320280 !important;
+    font-weight: bolder !important;
+    border: 0.2rem solid rgb(201, 200, 200) !important;
+}
+
+.contact-me:hover{
+    background-color: #320280 !important;
+    color: white !important;
+    font-weight: bolder !important;
+    font-weight: bolder !important;
+    border: 0.1rem solid rgb(201, 200, 200) !important;
+    transition: all ease-in-out 0.3s;
+    transform: ;
+}
+
+.nav-button{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin-left: 5rem;
+    height: auto;
+   
+   
+
+}
+.nav-button ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    justify-content: space-evenly;
+    list-style: none; 
+    
+    
+}
+
+
+
+.nav-button ul li a{
+    
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #320280;
+    
+
+}
+.nav-button ul li a:hover{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #320280;
+    color: #ffffff;
+    border-radius: 1rem;
+    padding: 1rem;
+    transition: all 0.2s;
+    
+    
+
+}
+
+@media screen and (max-width: 592px){
+
+
+    .full-cover{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: auto;
+    }
+    
+    .cover{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 0 !important;
+        background-color: #320280;
+        
+        
+    }
+    
+    .cover img{
+        
+        margin-top: 30rem;
+        width: 100%;
+        height: 400px;
+       
+        
+    
+    }
+    
+    .profile{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: -18rem;
+        background-color: #434146;
+        
+        
+        
+    }
+    
+    .profile img{
+       
+        width: 20rem;
+        height: 20rem;
+        border: 3px solid #e4e2e2;
+        border-radius: 40rem;
+        
+       
+        
+    }
+    
+    .profile-text{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        
+    }
+    
+    .profile-text h1{
+        color: #320280;
+        font-weight: bolder;
+    }
+    
+    .profile-text h3{
+        margin-top: -0.5rem;
+    }
+    
+    .Contact-button{
+       margin: 0 auto;
+        margin-top: 4rem;
+    }
+    .contact-me{
+        background-color: #cececf !important;
+        color: #320280 !important;
+        font-weight: bolder !important;
+        border: 0.2rem solid rgb(201, 200, 200) !important;
+    }
+    
+    .contact-me:hover{
+        background-color: #320280 !important;
+        color: white !important;
+        font-weight: bolder !important;
+        font-weight: bolder !important;
+        border: 0.1rem solid rgb(201, 200, 200) !important;
+        transition: all ease-in-out 0.3s;
+        transform: ;
+    }
+    
+    .nav-button{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+        width: 90vw;
+       
+        height: auto;
+       
+       
+    
+    }
+    .nav-button ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+        text-align: center;
+        list-style: none; 
+        margin: 0 auto;
+        
+        
+    }
+    
+    
+    
+    .nav-button ul li a{
+        
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #320280;
+        
+    
+    }
+    .nav-button ul li a:hover{
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: bold;
+        background-color: #320280;
+        color: #ffffff;
+        border-radius: 1rem;
+        padding: 1rem;
+        transition: all 0.2s;
+        
+        
+    
+    }
+  
+  
+    
+
+}
+
